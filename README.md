@@ -1,1 +1,1 @@
-# aiquiral.github.io
+# Sudoku Solver (Prolog)
