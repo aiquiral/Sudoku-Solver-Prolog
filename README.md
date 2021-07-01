@@ -8,21 +8,21 @@ and exactly once in each column.
 
 _Example:_
 
-![](sudoku-screenshots/latin.png)
+![](sudoku-screenshots/latin.png)<br>
 a Latin square of order 3
 
 A **Sudoku Latin square** is a Latin square of order 9 on the symbol set {1,..., 9} that
 
-is partitioned into 3 _×_ 3 squares, and each square contains all symbols.
+is partitioned into 3 _×_ 3 squares, and each square contains all symbols.<br>
 ![](sudoku-screenshots/1.png)
 
-This can also be represented as
+This can also be represented as<br>
 ![](sudoku-screenshots/2.png)
 
-This can be further represented as a list of variables:
+This can be further represented as a list of variables:<br>
 ![](sudoku-screenshots/3.png)
 
-And we represent the whole sudoku latin square as a list of lists.
+And we represent the whole sudoku latin square as a list of lists.<br>
 ![](sudoku-screenshots/4.png)
 
 So, in total, we have a list of rows.
