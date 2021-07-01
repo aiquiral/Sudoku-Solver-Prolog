@@ -35,20 +35,18 @@ The library clpfd or Constraint Logic Programming over Finite Domains contains a
 of built-in predicates that are useful for solving the Sudoku puzzle easily.
 
 **(ins)/2** states the domains of variables
-
     in some systems: fd_domain/3, domain/
 
 **all_distinct/**
-
     or alternatively: all_different/1, fd_all_different.
-
     describes a list of different integers
 
-_Examples_ :
+_Examples_ :<br>
 ![](sudoku-screenshots/s1.png)
 
-Constraint Propagation:
+Constraint Propagation:<br>
 ![](sudoku-screenshots/s2.png)
+<br><br>
 
 # CONSISTENCY TECHNIQUES
 
@@ -56,15 +54,15 @@ Constraint Propagation:
 
 Using the previous example, the following graph states that X can be either 1 or 2, Y
 
-can be either 1 or 2 and Z can be either 1, 2 or 3.
+can be either 1 or 2 and Z can be either 1, 2 or 3.<br>
 ![](sudoku-screenshots/g1.png)
 
 This is a value graph for a set of constraints.
 
 Prolog automatically reasons about this value graph to detect whether there can still
 
-be a solution and also to find out which assignment can not occur in a solution.
-![](sudoku-screenshots/g2.png) ![](sudoku-screenshots/g3.png)
+be a solution and also to find out which assignment can not occur in a solution.<br>
+![](sudoku-screenshots/g2.png) &nbsp; ![](sudoku-screenshots/g3.png)
 
 # PROGRAM
 
@@ -166,14 +164,14 @@ problem(3,Rows), sudoku(Rows), maplist(portray_clause, Rows).
 # ANOTHER EXAMPLE
 
 Following is the step by step method of how prolog solves the Sudoku puzzle using
-intelligent constraint propagation.
-![](sudoku-screenshots/01.png) ![](sudoku-screenshots/02.png)
-![](sudoku-screenshots/03.png) ![](sudoku-screenshots/04.png)
-![](sudoku-screenshots/05.png) ![](sudoku-screenshots/06.png)
+intelligent constraint propagation.<br>
+![](sudoku-screenshots/01.png) &nbsp; ![](sudoku-screenshots/02.png)<br>
+![](sudoku-screenshots/03.png) &nbsp; ![](sudoku-screenshots/04.png)<br>
+![](sudoku-screenshots/05.png) &nbsp; ![](sudoku-screenshots/06.png)<br>
 
 Inconsistent values are indicated by small dots. Black dots represent “obvious”
-propagation, whereas, blue dots represent “intelligent” propagation.
-![](sudoku-screenshots/07.png) ![](sudoku-screenshots/08.png)
+propagation, whereas, blue dots represent “intelligent” propagation.<br>
+![](sudoku-screenshots/07.png) &nbsp; ![](sudoku-screenshots/08.png)<br>
 
 # REFERENCES
 
