@@ -160,7 +160,7 @@ problem(2,Rows), sudoku(Rows), maplist(portray_clause, Rows).
 ```
 problem(3,Rows), sudoku(Rows), maplist(portray_clause, Rows).
 ```
-
+<br><br>
 # ANOTHER EXAMPLE
 
 Following is the step by step method of how prolog solves the Sudoku puzzle using
